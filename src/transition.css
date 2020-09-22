@@ -1,0 +1,20 @@
+.fade-enter {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(-50%)
+}
+
+.fade-enter-active {
+  transition: 2000ms;
+  transform: scale(1) translateY(0%);
+  opacity: 1
+}
+
+.fade-exit {
+  transform: scale(1) translateY(0%);
+  opacity: 1
+}
+
+.fade-exit-active {
+  transition: 2000ms;
+  opacity: 0.01
+}
